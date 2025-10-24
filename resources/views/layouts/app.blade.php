@@ -177,7 +177,7 @@
             </x-layout.header>
         </x-slot:header>
         <x-slot:menu>
-            <x-side-bar smart collapsible>
+            <x-side-bar smart collapsible navigate-hover>
                 <x-slot:brand>
                     <div class="mt-8 flex items-center justify-center">
                         <img src="{{ asset('storage/files/LogoStrikefest2025.png') }}" width="80" height="80" />
